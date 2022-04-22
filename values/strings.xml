@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LEXO</string>
+    <string name="menu">Menu</string>
+    <string name="reviews">Reviews</string>
+    <string name="reservations">Reservations</string>
+    <string name="established_2021">Established 2021</string>
+    <string name="main_menu_logo">Main Menu Logo</string>
+    <string name="welcome_logo">Welcome_logo</string>
+    <string name="seat3">TODO</string>
+    <string name="seat2">TODO</string>
+    <string name="seat1">TODO</string>
+    <string name="title"> Room Delivery Request </string>
+    <string name="title2"> Pick-Up Order </string>
+    <string name="login_form_title">Login</string>
+    <string name="login_form_username">Username</string>
+    <string name="login_form_password">Password</string>
+    <string name="login_form_login">LOGIN</string>
+</resources>

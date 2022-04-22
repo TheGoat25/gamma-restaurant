@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="800dp"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RateRestaurant"><![CDATA[>
+
+    ]]>
+
+    <ImageView
+        android:id="@+id/wallpaper"
+        android:layout_width="910dp"
+        android:layout_height="1359dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ipad_restaurant_app_background_2" />
+
+    <ImageView
+        android:id="@+id/InputBox"
+        android:layout_width="750dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="412dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="236dp"
+        android:layout_marginLeft="236dp"
+        android:layout_marginTop="425dp"
+        android:text="Enter Your Name"
+        android:textAllCaps="true"
+        android:textColor="#0C0101"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="40dp">
+
+
+        <View
+            android:layout_width="370dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="550dp"
+            android:background="@color/cardview_dark_background" />
+
+        <View
+            android:layout_width="370dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="80dp"
+            android:background="@color/cardview_dark_background"/>
+
+        /><![CDATA[
+
+        />
+
+
+    ]]>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="150dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:background="#ffffff"
+        android:inputType="textCapSentences|text"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="150dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:background="#ffffff"
+        android:inputType="textCapSentences|text"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+<!--
+
+    <RadioButton
+        android:id="@+id/anonymous_button"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginLeft="292dp"
+        android:layout_marginTop="664dp"
+        android:text="Anonymous"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+-->
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="259dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginLeft="268dp"
+        android:layout_marginTop="700dp"
+        android:background="#FF5F15"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:layout_width="55dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="696dp"
+        android:layout_marginLeft="696dp"
+        android:layout_marginTop="424dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/close_button_2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gamma_restaurant">
+    <uses-permission android:name="android.permission.INTERNET"> </uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Gamma Restaurant"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ConstraintRestaurant">
+        <activity android:name="com.example.gamma_restaurant.ReservationsConfirmation"></activity>
+        <activity android:name="com.example.gamma_restaurant.PickUpConfirmation"></activity>
+        <activity android:name="com.example.gamma_restaurant.PickUpForm"></activity>
+        <activity android:name="com.example.gamma_restaurant.OrderSummary"></activity>
+        <activity android:name="com.example.gamma_restaurant.RoomDeliveryConfirmation"></activity>
+        <activity android:name="com.example.gamma_restaurant.RoomDeliveryForm"></activity>
+        <activity android:name="com.example.gamma_restaurant.ServiceType"></activity>
+        <activity android:name="com.example.gamma_restaurant.ThanksForFeedback"></activity>
+        <activity android:name="com.example.gamma_restaurant.ReviewsDisplay"></activity>
+        <activity android:name="com.example.gamma_restaurant.RateRestaurantForm"></activity>
+        <activity android:name="com.example.gamma_restaurant.RateRestaurant"></activity>
+        <activity android:name="com.example.gamma_restaurant.ReviewsOptions"></activity>
+        <activity android:name="com.example.gamma_restaurant.calzoneActivity"></activity>
+        <activity android:name="com.example.gamma_restaurant.napoletanaActivity" />
+        <activity android:name="com.example.gamma_restaurant.margheritaActivity" />
+        <activity android:name="com.example.gamma_restaurant.lasagnaActivity" />
+        <activity android:name="com.example.gamma_restaurant.shellsActivity" />
+        <activity android:name="com.example.gamma_restaurant.meatballsActivity" />
+        <activity android:name="com.example.gamma_restaurant.chickenActivity" />
+        <activity android:name="com.example.gamma_restaurant.seafoodpActivity" />
+        <activity android:name="com.example.gamma_restaurant.bracioleActivity" />
+        <activity android:name="com.example.gamma_restaurant.ReservationsActivity" />
+        <activity android:name="com.example.gamma_restaurant.FoodMenuActivity" />
+        <activity android:name="com.example.gamma_restaurant.ReservationFormActivity" />
+        <activity android:name="com.example.gamma_restaurant.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

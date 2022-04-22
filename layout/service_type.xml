@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceType"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:id="@+id/InputBoxBorder"
+        android:layout_width="722dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="408dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/InputBox"
+        android:layout_width="717dp"
+        android:layout_height="380dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="408dp"
+        android:background="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/cancel_button"
+        android:layout_width="57dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="660dp"
+        android:layout_marginLeft="660dp"
+        android:layout_marginTop="420dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/close_button_2" />
+
+    <TextView
+        android:id="@+id/ServiceTypeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:layout_marginLeft="284dp"
+        android:layout_marginTop="420dp"
+        android:text="Service Type"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="150dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginLeft="324dp"
+        android:layout_marginTop="704dp"
+        android:background="#FF5F15"
+        android:text="NEXT"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_marginTop="500dp"
+        android:id="@+id/groupradio"
+        android:layout_marginLeft="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- In RadioGroup create the 1 Radio Button-->
+        <!-- like this we will add some more Radio Button-->
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:id="@+id/room_delivery"
+            android:text="Deliver to Hotel Room"
+            android:textSize="28dp"
+            android:layout_margin="10dp"/>
+
+        <RadioButton
+            android:id="@+id/pick_up"
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:text="Pick-Up"
+            android:textSize="28dp"
+            android:layout_margin="10dp"/>
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:id="@+id/dine_in"
+            android:text="Dine-In"
+            android:textSize="28dp"
+            android:layout_margin="10dp"/>
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

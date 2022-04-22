@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PickUpForm"
+    android:background="#ffffff">
+
+
+    <ImageButton
+        android:id="@+id/cancel_button"
+        android:layout_width="72dp"
+        android:layout_height="59dp"
+        android:layout_marginLeft="712dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/cardview_dark_background"
+        app:srcCompat="@drawable/close_button_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/title2"
+        android:textColor="#FF5F15"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/CustomerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:ems="10"
+        android:hint="Name for Order"
+        android:background="#ffffff"
+        android:inputType="textCapSentences|text"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="40dp">
+
+        <View
+            android:layout_width="370dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="240dp"
+            android:background="@color/cardview_dark_background"/>
+
+
+        <View
+            android:layout_width="400dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/cardview_dark_background"/>
+
+        <View
+            android:layout_width="400dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/cardview_dark_background"/>
+
+        /><![CDATA[
+
+        />
+
+
+    ]]>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:ems="10"
+        android:hint="Email"
+        android:background="#ffffff"
+        android:inputType="text"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/CellphoneNumber"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="390dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Cellphone #"
+        android:inputType="number"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/special_instructions_border"
+        android:layout_width="693dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="500dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/special_instructions"
+        android:layout_width="688dp"
+        android:layout_height="202dp"
+        android:layout_marginTop="503dp"
+        android:layout_marginLeft="53dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:padding="3dp"
+        android:hint="Special Instructions (Optional)"
+        android:inputType="textCapSentences|text"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/PaymentTypeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="750dp"
+        android:text="Payment Type:"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="925dp"
+        android:text="Total: $12.00"
+        android:textColor="#00ff00"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_marginTop="815dp"
+        android:id="@+id/groupradio"
+        android:layout_marginLeft="86dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- In RadioGroup create the 1 Radio Button-->
+        <!-- like this we will add some more Radio Button-->
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:id="@+id/room_delivery"
+            android:text="Add to hotel fee"
+            android:textSize="32dp"
+            android:layout_margin="10dp"/>
+
+        <RadioButton
+            android:id="@+id/pick_up"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:text="Pay with cash"
+            android:textSize="32dp"
+            android:layout_margin="10dp"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="1050dp"
+        android:text="Submit!"
+        android:textColor="@color/white"
+        android:background="#FF5F15"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
